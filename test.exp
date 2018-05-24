@@ -1,0 +1,11 @@
+#!/usr/bin/expect
+spawn "./component.sh"
+
+expect "Enter component name: "
+send "dummy\n"
+expect "Create style file? (y/n): "
+send "n\n"
+expect "connect to store? (y/n): "
+send "y\n"
+
+interact

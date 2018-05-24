@@ -1,10 +1,10 @@
 import React from 'react';
-import './${name}.scss';
+@style[import './@[name].@[ext]';]
 
-const ${name^} = (props) => {
+const @[name!] = (props) => {
     return (
-        <div className="${name}"></div>
+        <div className="@[name]"></div>
     );
 }
 
-export default ${name^};
+export default @[name!];

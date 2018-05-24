@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Main from './components/main';
-import './${name}.scss';
+@style[import './@[name].@[ext]';]
 
-class ${name^} extends Component {
+class @[name!] extends Component {
     render() {
 
         return (
@@ -23,4 +23,4 @@ const mapDispatchToProps = (dispatch) => {
     };
 }
 
-export default connect(mapPropsToState, mapDispatchToProps)(${name^});
+export default connect(mapPropsToState, mapDispatchToProps)(@[name!]);
