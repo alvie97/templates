@@ -1,5 +1,4 @@
 #!/bin/bash
-# TODO: if no style file chosen don't add import for it
 
 #colors
 RED="0;31"
